@@ -28,7 +28,7 @@ const AddUser = props => {
         if (+enteredAge < 1) {
             setError({
                 title: "Invalid age",
-                message: "Please enter"
+                message: "Please enter a valid age"
             });
             return;
         }
